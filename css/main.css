@@ -53,3 +53,18 @@ body {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  section img:nth-child(2),
+  section img:nth-child(3),
+  section img:nth-child(4) {
+    display: inline;
+    width: 33.333%;
+  }
+
+  section img:last-child {
+    display: none;
+  }
+
+}
