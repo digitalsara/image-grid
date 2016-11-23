@@ -68,3 +68,16 @@ body {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+
+  section img:first-child {
+    width: 66.666%;
+  }
+
+  section img:last-child {
+    display: inline-block;
+    width: 33.333%;
+  }
+
+}
